@@ -55,24 +55,6 @@ h2{
 #nav-list a span{
   font-size: 1.5em;
 }
-/* #nav-list{
-  border:1px solid;
-}
-#nav-list:nth-child(3){
-  border-bottom:0;
-}
-#nav-list li{
-  background:#fff;
-  border-bottom:2px solid;
-}
-#nav-list li:nth-child(3){
-  border-bottom:0;
-}
-#nav-list li a{
-  color:#000;
-  font-weight: 600;
-  line-height: 8px
-} */
 .menu{
   margin:15px; 
 }

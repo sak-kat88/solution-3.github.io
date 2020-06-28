@@ -1,0 +1,122 @@
+body{
+	font-size: 16px;	
+  font-family: Comic Sans MS;
+  background-color: #C0C0C0;
+}
+div{
+  margin-right: 0.1em;
+}
+h2{
+  font-size: 2.2em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+  border: 2px solid #000 !important;
+}
+#header-nav{
+  background-color:#008B8B;
+  border-radius: 0;
+  border:0;
+  padding : 15px;
+}
+.navbar-brand{
+  margin-top: 10px;
+  padding-top:10px;
+}
+.navbar-nav{
+  margin:0 -15px !important;
+}
+.navbar-brand h1{
+  font-family: "Algerian";
+  color: #FFFFFF;
+  font-size: 2em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-shadow: 3px 3px #000;
+  line-height: .75;
+  margin-left: 15px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+  text-decoration: none;  
+}
+#nav-list{
+  margin-top : 10px;
+}
+#nav-list a{
+  text-align: "center";
+  font-size: 1.1em;
+  color :#FFFFFF;
+  border : 1px #000;
+}
+#nav-list a:hover{
+  background-color: aliceblue;
+  color : #000;
+}
+#nav-list a span{
+  font-size: 1.5em;
+}
+/* #nav-list{
+  border:1px solid;
+}
+#nav-list:nth-child(3){
+  border-bottom:0;
+}
+#nav-list li{
+  background:#fff;
+  border-bottom:2px solid;
+}
+#nav-list li:nth-child(3){
+  border-bottom:0;
+}
+#nav-list li a{
+  color:#000;
+  font-weight: 600;
+  line-height: 8px
+} */
+.menu{
+  margin:15px; 
+}
+.main-title{
+  font-family: "Algerian";
+  font-weight: bold;
+  margin-top: -3px;
+}
+.menu-content{ 
+  margin-top:40px;
+  margin-left: -3px;
+}
+.menu-title{
+  font-size: 1.5em;;
+  font-family: "Cooper Black";
+  color: #483D8B;
+  font-weight: bold;
+}
+.menu-item{
+  margin-bottom: 20px;
+  background:#B0E0E6;  
+  padding: 10px;
+}
+.menu-item h4 {
+  font-weight: bold;
+}
+.menu-item p{
+  font-weight:600;
+  font-size: .9em;
+  padding: 5px 10px;
+}
+@media (max-width:767px){
+  .navbar-brand:focus, .navbar-brand{
+    margin-left:10px;
+  }
+  .menu{
+    width: 80%;
+    margin-right:auto;
+    margin-left:auto;
+    margin-bottom: 15px;
+  }
+  .menu-item p{
+    font-weight: 600;
+    font-size: 1em;
+    padding:5px 15px;
+  }
+}
